@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <title>Sonia &amp; Jim's wedding</title>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Handlee|Dancing+Script">
+  <link rel="stylesheet" type="text/css" href="/r/style.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  
+<script>
+$(document).ready(function() {
+  $('#nav').height($('body').innerHeight() - 30);
+  });
+</script>
+</head>
+<body>
+  <div id="topnav"><h1>Jim &amp; Sonia</h1></div>
+  <div id="nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/vows">Vows</a></li>
+      <li><a href="/photos">Photos</a></li>
+      <li><a href="/karaoke">Karaoke</a></li>
+      <li><a href="/rsvp">RSVP</a></li>
+      <li><a href="/details">Wedding details</a></li>
+      <li><a href="/menu">Menu</a></li>
+      <li><a href="/parties">Pre & Post Party</a></li>
+      <li><a href="/hotels">Accommodations</a></li>
+      <li><a href="/sf">San Francisco</a></li>
+      <li><a href="/registry">Registry</a></li>
+    </ul>
+  </div>
+  <div id="content"><p>We had a lot of fun at our wedding.  Fortunately lots of pictures were taken,
+click through the links for some great memories.
+</p>
+<ul>
+      <li><a href="http://www.hollye.com/features/SoniaAndJim/">Slide show</a>&ndash;Photos from our photographer Hollye</li>
+      <li><a href="https://plus.google.com/photos/109488081847486261727/albums/5807515189512643969">All Pictures from our photographer Hollye</a></li>
+      <li><a href="https://plus.google.com/photos/109488081847486261727/albums/5792002742170725905">Wedding Shenanigans</a>&ndash;Photos from the whole weekend &amp; the photobooth</li>
+      <li><a href="https://plus.google.com/photos/109488081847486261727/albums/5792063063551695889">Honeymoon in Thailand</a>&ndash;We visited Bangkok, Chaing-Mai, Koh Samui, and Koh Tao</li>
+  </ul>
+
+    <div id="footer">
+      <small>
+        <i>Having trouble?  Give us a call at (415) 734 8774 or email jim.morrison at gmail.com .</i>
+      </small>
+    </div>
+  </div>
+</body>
+</html>

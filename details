@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+  <title>Sonia &amp; Jim's wedding</title>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Handlee|Dancing+Script">
+  <link rel="stylesheet" type="text/css" href="/r/style.css">
+  <style>
+th {
+  text-align: left;
+  vertical-align: top;
+}
+</style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  
+<script>
+$(document).ready(function() {
+  $('#nav').height($('body').innerHeight() - 30);
+  });
+</script>
+</head>
+<body>
+  <div id="topnav"><h1>Jim &amp; Sonia</h1></div>
+  <div id="nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/vows">Vows</a></li>
+      <li><a href="/photos">Photos</a></li>
+      <li><a href="/karaoke">Karaoke</a></li>
+      <li><a href="/rsvp">RSVP</a></li>
+      <li><a href="/details">Wedding details</a></li>
+      <li><a href="/menu">Menu</a></li>
+      <li><a href="/parties">Pre & Post Party</a></li>
+      <li><a href="/hotels">Accommodations</a></li>
+      <li><a href="/sf">San Francisco</a></li>
+      <li><a href="/registry">Registry</a></li>
+    </ul>
+  </div>
+  <div id="content">  <table>
+    <tr><th>Date</th><td>9 September 2012</td></tr>
+    <tr><th>Schedule</th><td>Ceremony: 16:00<br>
+                             Reception: 18:00<br>
+                             Closing: 22:30</td></tr>
+    <tr><th>Dress Code</th><td>Formal (not black tie) with comfy shoes</td></tr>
+    <tr><th>Getting There</th><td>
+    To get to the Farmhouse Mansion there will be a bus that picks up a the
+    following locations in the city.
+    <table><tr><th>Time</th><th>Location</th></tr>
+      <tr><th>15:05</th><td>San Francisco Omni</td></tr>
+      <tr><th>15:20</th><td>Golden Gate Panhandle (Baker between Fell &amp; Oak)</td></tr>
+      <tr><th>15:30</th><td>Beck's Motor Lodge</td></tr>
+      <tr><th>15:40</th><td>24th &amp; Mission Bart Station</td></tr>
+      <tr><th>15:50</th><td>Farmhouse Mansion</td></tr>
+    </table>
+    </td></tr>
+    <tr><th>Getting Home</th><td>The bus will leave the Farmhouse Mansion at 
+    20:30, 21:30, and 22:30 and stop at each of the pickup locations.</td></tr>
+    <tr><th>Location</th><td>Farmhouse Mansion<br>3340 Folsom St<br>San Francisco, CA 94110</td><tr>
+    <tr><td colspan="2"><a href="http://maps.google.com/maps?q=3340+folsom+street+san+francisco&ll=37.751308,-122.416534&spn=0.078994,0.157928&client=ubuntu&channel=cs&hnear=3340+Folsom+St,+San+Francisco,+California+94110&gl=us&t=m&z=13"><img src="http://maps.googleapis.com/maps/api/staticmap?center=37.7550,%20-122.4150&zoom=14&size=640x480&sensor=false&scale=1&markers=size:mid%7ccolor:green%7C3340+folsom+st,san+francisco,ca" border="0"></a></td></tr>
+  </table>
+
+    <div id="footer">
+      <small>
+        <i>Having trouble?  Give us a call at (415) 734 8774 or email jim.morrison at gmail.com .</i>
+      </small>
+    </div>
+  </div>
+</body>
+</html>

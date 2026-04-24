@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+  <title>Sonia &amp; Jim's wedding</title>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Handlee|Dancing+Script">
+  <link rel="stylesheet" type="text/css" href="/r/style.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  
+<script>
+$(document).ready(function() {
+  $('#nav').height($('body').innerHeight() - 30);
+  $('#adult-h').click(function() {
+  $('#adult').toggle();
+  $('.plus').toggle();
+});
+});
+</script>
+</head>
+<body>
+  <div id="topnav"><h1>Jim &amp; Sonia</h1></div>
+  <div id="nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/vows">Vows</a></li>
+      <li><a href="/photos">Photos</a></li>
+      <li><a href="/karaoke">Karaoke</a></li>
+      <li><a href="/rsvp">RSVP</a></li>
+      <li><a href="/details">Wedding details</a></li>
+      <li><a href="/menu">Menu</a></li>
+      <li><a href="/parties">Pre & Post Party</a></li>
+      <li><a href="/hotels">Accommodations</a></li>
+      <li><a href="/sf">San Francisco</a></li>
+      <li><a href="/registry">Registry</a></li>
+    </ul>
+  </div>
+  <div id="content"><p>There is lots to do in and around San Francisco.  Here are some of the
+things we've enjoyed that we think you will too.</p>
+<ul>
+      <li><a href="http://www.beauwinetours.com/napa_valley_wine_tours.html">Napa wine tour</a>&ndash;Take the ferry to Vallejo from San Francisco. Then take a limousine around Napa Valley for a 6 hour tour.</li>
+      <li><a href="http://www.beauwinetours.com/sonoma_valley_wine_tours.html">Sonoma Wine tour</a>&ndash;Limousine from San Francisco for an 8 hour tour.</li>
+      <li><a href="http://www.exploratorium.edu/">Exporatorium</a>&ndash;Sonia and Jim met here!</li>
+      <li><a href="http://www.aquariumofthebay.com/">Pier 39 Aquarium</a></li>
+      <li><a href="http://www.gocartours.com/">Go car tour</a></li>
+      <li><a href="http://www.ghirardellisq.com/">Ghirardelli square</a></li>
+      <li><a href="http://www.fishermanswharf.org/">Fishermen&#39;s Wharf</a></li>
+      <li><a href="http://www.golden-gate-park.com/">Golden Gate Park</a></li>
+      <li><a href="http://legionofhonor.famsf.org/">Legion of Honor</a></li>
+      <li><a href="http://www.calacademy.org/">California Academy of Science</a></li>
+      <li><a href="http://www.beachchalet.com/">Cliff House / Beach Chalet</a>&ndash;Near San Francisco&#39;s Ocean Beach &amp; the old windmills.</li>
+      <li><a href="http://www.sanfranciscochinatown.com/attractions/ggfortunecookie.html">Fortune Cookie Factory</a></li>
+      <li><a href="http://www.bigbasin.org/">Big Basin State Park</a>&ndash;South of San Francisco with lots of Redwoods.</li>
+      <li><a href="http://www.winchestermysteryhouse.com/">Winchester Mystery House</a>&ndash;Down in San Jose, Mimi loved this place.</li>
+      <li><a href="http://www.dennisraefineart.com/">Dr. Seuss Art Museum</a></li>
+      <li><a href="http://www.streetcar.org/museum/">SF Railway Museum</a></li>
+  </ul>
+<h3 id="adult-h"><span class="plus">[+]</span><span class="plus hide">[&ndash;]</span> Adult Specific sights</h3>
+<div id="adult" class="hide">
+  <ul>
+      <li><a href="http://www.lustyladysf.com/history/">Lusty Lady</a>&ndash;Employee owned and operated exotic dance establishment.</li>
+      <li><a href="http://www.antiquevibratormuseum.com/">Antique Vibrator Museum</a></li>
+      <li><a href="http://www.sfarmory.com/">SF Armory</a></li>
+    </ul>
+</div>
+
+<p>To get to and from the airport, we recommend using
+<a href="http://www.bart.gov/">BART</a>.  For getting around the city
+<a href="http://www.sfmta.com/cms/home/sfmta.php">MUNI</a> has various busses
+and street cars to get anywhere in the city.</p>
+
+    <div id="footer">
+      <small>
+        <i>Having trouble?  Give us a call at (415) 734 8774 or email jim.morrison at gmail.com .</i>
+      </small>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+  <title>Sonia &amp; Jim's wedding</title>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Handlee|Dancing+Script">
+  <link rel="stylesheet" type="text/css" href="/r/style.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  
+<script>
+$(document).ready(function() {
+  $('#nav').height($('body').innerHeight() - 30);
+  $('.song').click(function(e) {
+    e.preventDefault();
+    $('#song-src').attr('src', this.href);
+    $('#song-src')[0].play();
+});
+});
+</script>
+</head>
+<body>
+  <div id="topnav"><h1>Jim &amp; Sonia</h1></div>
+  <div id="nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/vows">Vows</a></li>
+      <li><a href="/photos">Photos</a></li>
+      <li><a href="/karaoke">Karaoke</a></li>
+      <li><a href="/rsvp">RSVP</a></li>
+      <li><a href="/details">Wedding details</a></li>
+      <li><a href="/menu">Menu</a></li>
+      <li><a href="/parties">Pre & Post Party</a></li>
+      <li><a href="/hotels">Accommodations</a></li>
+      <li><a href="/sf">San Francisco</a></li>
+      <li><a href="/registry">Registry</a></li>
+    </ul>
+  </div>
+  <div id="content"><audio controls="controls" id="song-src" src="http://commondatastorage.googleapis.com/wedding-karaoke/41723.mp3" type="audio/mpeg">
+Your browser does not support audio :(
+</audio>
+
+<ul>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41723.mp3">Origin Of Love</a> by Andy Bundy</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41724.mp3">Seasons of Love</a></li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41725.mp3">L O V E</a> by Andy Bundy</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41726.mp3">Time In A Bottle</a> by KJ Paul</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41727.mp3">Just The Way You Are</a> by KJ Paul</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41728.mp3">To Make You Feel My Love</a> by Becky</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41729.mp3">Daniel</a> by Jamie Nicolson</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41731.mp3">Bad Romance</a> by Sonia &amp; JP</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41732.mp3">Peaceful Easy Feeling</a> by KJ Paul &amp; Sonia</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41733.mp3">Folsom Prison Blues</a> by Stuart</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41734.mp3">Blue Suede Shoes</a> by KJ Paul</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41735.mp3">500 Miles</a> by Roger &amp; Barry</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41736.mp3">Liberty Valance</a> by Jim Morrison</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41737.mp3">Duke of Earl</a> by Barry</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41738.mp3">A Little Respect</a> by Sonia</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41739.mp3">Beat on the Brat</a> by The Morrison Girls</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41741.mp3">Sweet Caroline</a> by Sue &amp; all</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41742.mp3">Something About The Way You Look Tonight</a> by Andy Bundy</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41746.mp3">Excursion Around The Bay</a> by El Ritts</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41747.mp3">The Tide Is High</a> by Aleece</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41748.mp3">Could I Have This Dance</a> by Sue &amp; all</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41749.mp3">Lion Sleeps Tonight</a> by Barry &amp; The Bear</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41750.mp3">Waterloo</a> by Simon</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41751.mp3">Rent</a> by Andy &amp; David</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41752.mp3">My Way</a> by Geoff</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41753.mp3">Lost In Your Eyes</a> by Katie O</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41754.mp3">Pour Some Sugar On Me</a> by Beth &amp; Shell</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41755.mp3">Tequila Makes Her Clothes Fall Off</a> by Stuart</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41756.mp3">If I Had A Million Dollars</a> by Sue &amp; all</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41757.mp3">I&#39;m On My Way</a> by Barry &amp; Roger &amp; Jim</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41758.mp3">What&#39;s Up</a> by Jamie Nicolson</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41759.mp3">Ask</a> by Luke</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41761.mp3">I&#39;ll Have To Say I Love You In A Song</a> by KJ Paul</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41763.mp3">Top Of The Word</a> by Radha</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41764.mp3">I Want It That Way</a> by David &amp; JP</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41765.mp3">When Doves Cry</a> by Collin</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41766.mp3">Rump Shaker</a> by Jason Lawton</li>
+<li>
+    <a class="song" href="http://commondatastorage.googleapis.com/wedding-karaoke/41767.mp3">Would You Light My Candle</a> by David &amp; Sonia</li>
+</ul>
+    <div id="footer">
+      <small>
+        <i>Having trouble?  Give us a call at (415) 734 8774 or email jim.morrison at gmail.com .</i>
+      </small>
+    </div>
+  </div>
+</body>
+</html>

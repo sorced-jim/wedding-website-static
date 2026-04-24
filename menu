@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <title>Sonia &amp; Jim's wedding</title>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Handlee|Dancing+Script">
+  <link rel="stylesheet" type="text/css" href="/r/style.css">
+  <style>
+ul {
+  margin-top: -5px;
+}
+p {
+  margin-top: 10px;
+}
+</style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  
+<script>
+$(document).ready(function() {
+  $('#nav').height($('body').innerHeight() - 30);
+  });
+</script>
+</head>
+<body>
+  <div id="topnav"><h1>Jim &amp; Sonia</h1></div>
+  <div id="nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/vows">Vows</a></li>
+      <li><a href="/photos">Photos</a></li>
+      <li><a href="/karaoke">Karaoke</a></li>
+      <li><a href="/rsvp">RSVP</a></li>
+      <li><a href="/details">Wedding details</a></li>
+      <li><a href="/menu">Menu</a></li>
+      <li><a href="/parties">Pre & Post Party</a></li>
+      <li><a href="/hotels">Accommodations</a></li>
+      <li><a href="/sf">San Francisco</a></li>
+      <li><a href="/registry">Registry</a></li>
+    </ul>
+  </div>
+  <div id="content"><p>Our wedding is being catered by <a href="http://chef-stephanie.com/">Chef Stephanie</a>.  We have picked out the following menu:
+<ul>
+<li>Lamb and feta kebabs with roasted red pepper sauce</li>
+<li>Mini seafood tostadas, salsa fresca, avocado cream, (GF)</li>
+<li>Vegan skewers: peppers, eggplant, onion, zucchini, mushrooms, (V)</li>
+<li>Chicken dumplings: ground chicken, spinach, carrots, onion, ginger, celery with mint chili sauce</li>
+<li>Coriander crusted scallops chive potato hash & corn relish (GF)</li>
+<li>Oriechiete with arugula pesto, cherry tomatoes, asiago, pecans (V)</li>
+<li>Grass fed beef sliders, carmelized onion, chipotle aioli</li>
+<li>Heirloom tomatoes with fresh mozzarella, lentils, white balsamic,
+olive oil, salt/pepper (GF, V)</li>
+<li>Beer soaked bratwurst skewers, apples, onions, horseradish mustard</li>
+<li>Chile spiced sweet potatoes sunflower seed ranch dressing (GF, V)</li>
+</ul>
+<p>GF = Gluten Free, V = Vegan (may have cheese on the side).</p>
+<p>
+Cocktail service will include various beer, wine, champagne, non-alcoholic beverages, and our signature cocktail, the cosmopolitan.</p>
+<p>A coffee and tea service will be provided as well.</p>
+
+<p>
+We will be serving San Francisco's famous <http://www.dynamodonut.com/>Dynamo
+donuts</a> for dessert.</p><ul>
+<li>Spiced chocolate: chocolate donut coated in sugar, cinnamon, chile, and chipotle</li>
+<li>Passion Fruit Milk Chocolate: vanilla donut glazed with passionfruit and a touch of milk chocolate shavings</li>
+</ul>
+    <div id="footer">
+      <small>
+        <i>Having trouble?  Give us a call at (415) 734 8774 or email jim.morrison at gmail.com .</i>
+      </small>
+    </div>
+  </div>
+</body>
+</html>

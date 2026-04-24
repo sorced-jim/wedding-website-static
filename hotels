@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+  <title>Sonia &amp; Jim's wedding</title>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Handlee|Dancing+Script">
+  <link rel="stylesheet" type="text/css" href="/r/style.css">
+  <style>
+dt {
+  padding-top: 10px;
+}
+.more {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  cursor: hand;
+}
+</style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  
+<script>
+$(document).ready(function() {
+  $('#nav').height($('body').innerHeight() - 30);
+  $('.more').click(function(e) {
+  $(this).siblings('.mc').toggle();
+  $(this).children('span').toggle();
+});
+});
+</script>
+</head>
+<body>
+  <div id="topnav"><h1>Jim &amp; Sonia</h1></div>
+  <div id="nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/vows">Vows</a></li>
+      <li><a href="/photos">Photos</a></li>
+      <li><a href="/karaoke">Karaoke</a></li>
+      <li><a href="/rsvp">RSVP</a></li>
+      <li><a href="/details">Wedding details</a></li>
+      <li><a href="/menu">Menu</a></li>
+      <li><a href="/parties">Pre & Post Party</a></li>
+      <li><a href="/hotels">Accommodations</a></li>
+      <li><a href="/sf">San Francisco</a></li>
+      <li><a href="/registry">Registry</a></li>
+    </ul>
+  </div>
+  <div id="content"><p>We have blocked rooms at a couple different hotels at different price
+points.</p>
+<dl>
+  <dt><b>Fancy:</b> The OMNI Hotel & Resort  <a href="http://g.co/maps/bykjj">500 California St, San Francisco, CA 94104</a>.</dt>
+    <dd>Please call 1-800-THE-OMNI (1-800-843-6664) and refer to the Liu/Morrison wedding block or <a href="http://www.omnihotels.com/FindAHotel/SanFrancisco/MeetingFacilities/LiuMorrisonWedding9.aspx">reserve online</a>.</dd>
+    <dd>Reservations must be made before 8 August 2012</dd>
+    <dd>Website: <a href="http://www.omnihotels.com/findahotel/sanfrancisco.aspx">www.omnihotels.com</a></dd>
+    <dd>Price Range: $249 (King) &ndash; $259 (Two Double beds)</dd>
+    <dd><div class="more"><span>More info</span><span class="hide">less info</span></div>
+      <div class="hide mc">
+<b>On-Site Hotel Parking:</b> 24 Hour, Valet Only Parking<br>
+<table><tr><th>Day Use Guests</th><td>(Regardless of day of the week)</td></tr>
+<tr><td>1 - 2 hours</td><td>$15</td></tr>
+<tr><td>3 hours</td><td>$30</td></tr>
+<tr><td>4 hours</td><td>$45</td></tr>
+<tr><td>5 hours</td><td>$48</td></tr>
+
+<tr><th>Overnight Parking</th><td></td></tr>
+<tr><td>$48.00, plus 14.65% tax per day</td><td>(Sunday – Thursday Nights)</td></tr>
+<tr><td>$27.00, plus 14.65% tax per day</td><td>(Friday and Saturday Nights)</td></tr>
+<tr><td colspan="2">In and Out Privileges</td></tr>
+<tr><td colspan="2"><p>
+
+Please note, no cars or trucks taller than 6’3” are able to be parked in our valet garage.  Any vehicles taller than 6’3” will be asked to self-park in a neighboring garage.</pb>
+</table>
+
+<h3>Alternative Parking Garages**:</h3>
+<div>
+<h4>Shorenstein Parking Garage</h4>
+Bank of America Building<br>
+555 California Street<br>
+(Across from Hotel, However, the Entrance is on Pine Street)<br>
+<b>Open:</b> 24 hours, 7 days a week<br>
+<b>Weekday:</b> $4.00 per 20 minutes; $38.00 max<br>
+<b>Evening</b> (After 5:00 PM-3:00 AM): $12.00<br>
+<b>Weekend:</b> $12.00 all day<br>
+*Cars are subject to search<br>
+Rates do not include in and out privileges!
+</div>
+
+<div>
+<h4>St. Mary’s Square Garage</h4>
+433 Kearny Street (1 Block from Hotel)<br>
+Open 24 hours, 7 days a week<br>
+<b>Weekday</b> (Monday – Friday, Midnight to 6:00PM):
+$3.50-$4.50 per hour, depending on the time you enter. $39.00 Maximum.<br>
+<b>Early Bird Special</b> (In by 7:30AM, Out after 7:00 PM): $22.00<br>
+<b>Evening</b> (After 6:00 PM- Midnight): $2.50 per hour<br>
+<b>Weekend:</b> $2.00- $3.00 per hour, depending on the time you enter<br>
+Rates do not include in and out privileges!
+
+</div>
+<ul class="nob">
+<li>** These garages are owned and operated by Private Companies **</li>
+<li>** Rates subject to change without notice **</li>
+</ul>
+</div> 
+  <dt><b>Mid-range:</b> Orchard Hotel <a href="http://maps.google.com/maps?q=The+Orchard+Hotel,+Bush+Street,+San+Francisco,+CA&hl=en&sll=37.793104,-122.403174&sspn=0.009869,0.021136&oq=orcha&gl=us&hq=The+Orchard+Hotel,+Bush+Street,+San+Francisco,+CA&t=m&z=15">665 Bush St, San Francisco, CA 94108</a>.</dt>
+    <dd>The wedding discount is a 15% discount from the current rates.  Go to the <a href="http://www.theorchardhotel.com/html/corporate-event-pkg.asp">Corporate & Event Planning</a> page and use the code "wedding".</dd>
+    <dd>Website: <a href="http://www.theorchardhotel.com/">www.theorchardhotel.com</a></dd>
+    <dd>Phone: (415) 362-8878</dd>
+    <dd>Price Range: $239 &ndash; $369</dd>
+
+  <dt><b>Economy:</b> Beck's Motor Lodge <a href="http://maps.google.com/maps?q=Beck's+Motor+Lodge,+Market+Street,+San+Francisco,+CA&hl=en&sll=37.793542,-122.408509&sspn=0.019737,0.042272&oq=beck's+&gl=us&hq=Beck's+Motor+Lodge,+Market+Street,+San+Francisco,+CA&t=m&z=16">2222 Market St, San Francisco, CA 94114</a>.</dt>
+    <dd>Call 415-621-8212 and say you are with the Liu/Morrison wedding.</dd>
+    <dd>Reservations must be made before 8 August 2012</dd>
+    <dd>Website: <a href="http://www.becksmotorlodge.com/">www.BecksMotorLodge.com</a></dd>
+    <dd>Price Range: $130</dd>
+    <dd>Beck's has a free open parking lot for guests.</dd>
+</dl>
+
+<p>
+September is high season for San Francisco as there are several other
+festivals and conferences happening.  We understand it can be quite expensive
+and recommend the following websites for some more options for hotels and
+airfare:</p>
+<ul><li><a href="http://www.kayak.com/">Kayak</a></li>
+<li><a href="http://www.orbitz.com/shop/home?type=hotel&hotel.type=keyword&hotel.coord=&hotel.keyword.key=san+francisco&hotel.locId=&hotel.chkin=&hotel.chkout=&hotel.rooms%5B0%5D.adlts=2&hotel.rooms%5B0%5D.chlds=0&hotel.rooms%5B0%5D.chldAge%5B0%5D=&hotel.rooms%5B0%5D.chldAge%5B1%5D=&hotel.rooms%5B0%5D.chldAge%5B2%5D=&hotel.rooms%5B0%5D.chldAge%5B3%5D=&hotel.rooms%5B0%5D.chldAge%5B4%5D=&hotel.rating=&hotel.chain=&hotel.hname=&hotel.couponCode=&search=Search">Orbitz</a></li>
+<li><a href="http://www.airbnb.com/search/?location=San+Francisco">Air BnB</a></li>
+<li><a href="http://www.vrbo.com/vacation-rentals/usa/california/san-francisco-bay-ar/san-francisco">Vacation Rentals By Owner</a></li>
+</ul>
+
+    <div id="footer">
+      <small>
+        <i>Having trouble?  Give us a call at (415) 734 8774 or email jim.morrison at gmail.com .</i>
+      </small>
+    </div>
+  </div>
+</body>
+</html>

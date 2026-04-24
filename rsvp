@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+  <title>Sonia &amp; Jim's wedding</title>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Handlee|Dancing+Script">
+  <link rel="stylesheet" type="text/css" href="/r/style.css">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/base/jquery-ui.css" type="text/css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  $('#nav').height($('body').innerHeight() - 30);
+  var sel = function(event, ui) {
+  $('#gn').val(ui.item.label);
+  $('#gcount').attr('max', ui.item.value);
+  $('#mg').text('Maximum guests: ' + ui.item.value);
+  $('#kn').val(ui.item.key_name);
+  event.preventDefault();
+}
+
+var guest_data = null;
+if (window.atob) {
+  guest_data = $.parseJSON(window.atob('eyJndWVzdHMiOiBbeyJrZXlfbmFtZSI6ICItMTAxMjU3MTc4OCIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJNYXJ5IEdlcm9jaCJ9LCB7ImtleV9uYW1lIjogIi0xMDY4NTU3MTY3IiwgInZhbHVlIjogMiwgImxhYmVsIjogIkxlZSBBbm4gQmVua2VydCJ9LCB7ImtleV9uYW1lIjogIi0xMDk2MTY4NDAwIiwgInZhbHVlIjogMSwgImxhYmVsIjogIlBhdWwgVHltYSJ9LCB7ImtleV9uYW1lIjogIi0xMTI4NDM5NTQ3IiwgInZhbHVlIjogMSwgImxhYmVsIjogIkx1a2FzeiBLb3Nld3NraSJ9LCB7ImtleV9uYW1lIjogIi0xMTQxMTc5NzkzIiwgInZhbHVlIjogMiwgImxhYmVsIjogIkplbm5pZmVyIE1vcnJpc29uIn0sIHsia2V5X25hbWUiOiAiLTExOTEwMTg4ODMiLCAidmFsdWUiOiA1LCAibGFiZWwiOiAiQ2hlcnlsICYgRGVyZWsgUmFiIn0sIHsia2V5X25hbWUiOiAiLTEyMTE4OTQyODUiLCAidmFsdWUiOiA0LCAibGFiZWwiOiAiU2NvdHQgJiBDYXJsZW5lIE1hbm5lbGwifSwgeyJrZXlfbmFtZSI6ICItMTIxMjgzMzAwOCIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJKYXNvbiBMYXd0b24ifSwgeyJrZXlfbmFtZSI6ICItMTIzMTY3MTc5IiwgInZhbHVlIjogMiwgImxhYmVsIjogIk5pY2sgR2VvcmdpdG9uIn0sIHsia2V5X25hbWUiOiAiLTEzMzU2NjM4MTgiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiUm9kICYgSm95Y2UgTW9ycmlzb24ifSwgeyJrZXlfbmFtZSI6ICItMTM2MzY1OTEzMSIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJUcm95IE1hbm5lbGwifSwgeyJrZXlfbmFtZSI6ICItMTM2NTA3NzA1NyIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJQYXVsIFJ1ZWNraGF1cyJ9LCB7ImtleV9uYW1lIjogIi0xMzg2ODYxOTQ1IiwgInZhbHVlIjogMiwgImxhYmVsIjogIlJob25kYSBhbmQgR29yZCBSaXR0d2FnZSJ9LCB7ImtleV9uYW1lIjogIi0xMzk0NTg0OTc0IiwgInZhbHVlIjogMiwgImxhYmVsIjogIk1pY2hhZWwgTGl1In0sIHsia2V5X25hbWUiOiAiLTE0MDE5MjUzNTYiLCAidmFsdWUiOiAxLCAibGFiZWwiOiAiU2FyYWggU3RhaG5rZSJ9LCB7ImtleV9uYW1lIjogIi0xNDM5MjA4NDE3IiwgInZhbHVlIjogNSwgImxhYmVsIjogIkphY29iIERlZW1zICYgU2FyYWggRGVlbXMifSwgeyJrZXlfbmFtZSI6ICItMTQ0MzM5OTk1MyIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJLYXRpZSBPJ0JyaWVuICYgVHlsZXIgTW9yZWxsIn0sIHsia2V5X25hbWUiOiAiLTE0NDkzMDY4MjkiLCAidmFsdWUiOiAxLCAibGFiZWwiOiAiTWFyayBXYXJyZW4ifSwgeyJrZXlfbmFtZSI6ICItMTQ2MTU2MjE3MSIsICJ2YWx1ZSI6IDEsICJsYWJlbCI6ICJUcmlzdG9uIENvc3NldHRlIn0sIHsia2V5X25hbWUiOiAiLTE0NjQzMzM2NDMiLCAidmFsdWUiOiA0LCAibGFiZWwiOiAiVG9ueSAmIEplbmEgQmFjaWdhbHVwbyJ9LCB7ImtleV9uYW1lIjogIi0xNDk4MTA0OTAwIiwgInZhbHVlIjogMiwgImxhYmVsIjogIlJ5YW4gU2hlcnJpZmYifSwgeyJrZXlfbmFtZSI6ICItMTUwMzgyOTYwMyIsICJ2YWx1ZSI6IDEsICJsYWJlbCI6ICJHcmVnIEdyZWVuICJ9LCB7ImtleV9uYW1lIjogIi0xNTIzNDgxNTk5IiwgInZhbHVlIjogNCwgImxhYmVsIjogIkNhdGh5ICYgU3RhbiBJd2Fuc2tpIn0sIHsia2V5X25hbWUiOiAiLTE2NTQwNTE1NzQiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiRmF5ZSAmIENsYXVkZSBSZWF1bWUifSwgeyJrZXlfbmFtZSI6ICItMTY4ODk2MDk5NiIsICJ2YWx1ZSI6IDMsICJsYWJlbCI6ICJCZXZlcmx5IEtpbSAmIEpvaG4gQ2xhcmsifSwgeyJrZXlfbmFtZSI6ICItMTcxODg3MTQxMyIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJQaGlsICYgRGFsZSBNYW5uZWxsIn0sIHsia2V5X25hbWUiOiAiLTE3Mjc1MjgyNDQiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiRGF2aWQgTmd1eWVuIn0sIHsia2V5X25hbWUiOiAiLTE3NDA0NzYzNTIiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiQnJhZCBEYW1hcmUgJiBSdXNzIFNvbW1lciJ9LCB7ImtleV9uYW1lIjogIi0xNzQwOTE4Mzg2IiwgInZhbHVlIjogMiwgImxhYmVsIjogIlN0ZXBoZW4gUm9hY2hlICYgS2VpdGggV2VzdGVyYnkifSwgeyJrZXlfbmFtZSI6ICItMTc1MzU1NjA0MyIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJKZXNzaWNhIFN0YWhua2UgJiBSeWFuIEZlZWxleSJ9LCB7ImtleV9uYW1lIjogIi0xNzUzNjUwNzA5IiwgInZhbHVlIjogMSwgImxhYmVsIjogIkp1bGlhIFBvdHRlciJ9LCB7ImtleV9uYW1lIjogIi0xNzk0NDIzODUyIiwgInZhbHVlIjogMiwgImxhYmVsIjogIkNsaWZmICYgSnVsaWUgTW9ycmlzb24ifSwgeyJrZXlfbmFtZSI6ICItMTgxNDM2OTU3NSIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJCYXN0aWFuIEtpZXNsaW5nZXIifSwgeyJrZXlfbmFtZSI6ICItMTgyMDI5MzEyMSIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJKYW1lcyBEZUJvZXIgJiBMZWlnaCBEYXZlbnBvcnQifSwgeyJrZXlfbmFtZSI6ICItMTg1NDI1NzgyNiIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJLZXZpbiBFc2xpbmdlciJ9LCB7ImtleV9uYW1lIjogIi0xODgzMDA0MTQxIiwgInZhbHVlIjogMiwgImxhYmVsIjogIkNhc2V5IE1hbm5lbGwifSwgeyJrZXlfbmFtZSI6ICItMTk0MTUzMDQ2MSIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJTdGV2ZW4gQ2hhbmcgJiBQaGlsaXAgRm9lY2tsZXIifSwgeyJrZXlfbmFtZSI6ICItMjAyMzA5NDQ3NCIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJKUCBMb3IgJiBDYXJsIE5vbGVuIn0sIHsia2V5X25hbWUiOiAiLTIwNDgxMTUxNzUiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiTWVsb2R5IENoYW5nICYgQ2h1bmctTG9uZyBDaGFuZyJ9LCB7ImtleV9uYW1lIjogIi0yMDg2NDA5NjM0IiwgInZhbHVlIjogMiwgImxhYmVsIjogIkRvbiAmIEdsYWR5cyBNYW5uZWxsIn0sIHsia2V5X25hbWUiOiAiLTIxMTMxMDM4OSIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJEYW5ueSBHcmVlbmxhdyJ9LCB7ImtleV9uYW1lIjogIi0yMTgxNDc4MTkiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiQmV0aCBBbHlzZSBTbnlkZXIifSwgeyJrZXlfbmFtZSI6ICItMjM4NDI2MzQxIiwgInZhbHVlIjogNCwgImxhYmVsIjogIkJhcnJ5ICYgU3VlIE1hbm5lbGwifSwgeyJrZXlfbmFtZSI6ICItMjU3NzM4NzQ2IiwgInZhbHVlIjogNCwgImxhYmVsIjogIkplZmYgJiBDYXJvbGUgUGhpbGxpcHMifSwgeyJrZXlfbmFtZSI6ICItMzM0ODI3NTg4IiwgInZhbHVlIjogMiwgImxhYmVsIjogIkNocmlzICYgVGlhIENsaXNzb2xkIn0sIHsia2V5X25hbWUiOiAiLTM0MzAwNDMwOCIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJNaW1pICYgU2hhd24gUG90dGVyIn0sIHsia2V5X25hbWUiOiAiLTM1MTkwMzAwNSIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJBZGFtICYgRW1pbHkgUGhpbGxpcCJ9LCB7ImtleV9uYW1lIjogIi0zOTk3MDA3NzgiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiVGluYSBEb3duZXkgJiBKZXNzZSBQbGF1dHoifSwgeyJrZXlfbmFtZSI6ICItNDU0NjkxMTk1IiwgInZhbHVlIjogMiwgImxhYmVsIjogIlNjb3R0ICYgSmVuIFBoaWxsaXBzIn0sIHsia2V5X25hbWUiOiAiLTQ1NDg3Njk3NiIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJZdm9ubmUgUGVuZyJ9LCB7ImtleV9uYW1lIjogIi00NjEyODUwMzIiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiQnJlbmRhbiBIdWcgJiBKUCBQZWNodCJ9LCB7ImtleV9uYW1lIjogIi00NjM4MDIwNzAiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiU2hlbGwgJiBDbGF5dG9uIE1pdGNoZWxsIn0sIHsia2V5X25hbWUiOiAiLTQ2NjgyNTM3IiwgInZhbHVlIjogMiwgImxhYmVsIjogIlJldi4gVG9tICYgTWF1cmVlbiBCZWVjcm9mdCJ9LCB7ImtleV9uYW1lIjogIi01MTYwMTI2MzAiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiQm9yaXMgQ2hhbmcgJiBLYXJlbiBZZWgifSwgeyJrZXlfbmFtZSI6ICItNjA5ODU5NjY1IiwgInZhbHVlIjogMiwgImxhYmVsIjogIkFuZHkgQnVuZHkgJiBDaHJpcyBIYXN0aW5ncyJ9LCB7ImtleV9uYW1lIjogIi02MjI0MjM2NTYiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiU2NvdHQgV2luZyJ9LCB7ImtleV9uYW1lIjogIi02ODQ3NjAyNTUiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiS2Vsc2V5IFBhcXVldHRlIn0sIHsia2V5X25hbWUiOiAiLTc2MDcyODE1OSIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJLaXJzdGVuIENodXJjaGlsbCJ9LCB7ImtleV9uYW1lIjogIi03Njk3MzkxMTYiLCAidmFsdWUiOiAxLCAibGFiZWwiOiAiSmFzb24gUmFuZCJ9LCB7ImtleV9uYW1lIjogIi03Nzg2OTgzODUiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiQnJ5YW4gTGl1In0sIHsia2V5X25hbWUiOiAiLTgwMzM2NTU0OCIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJBbm5hICYgSmltIERlbWF0dGVpcyJ9LCB7ImtleV9uYW1lIjogIi04MTI1ODQ0ODQiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiSmVmZiBCYWlsZXkgJiBBbmdpZSBEb2Vya3NlbiJ9LCB7ImtleV9uYW1lIjogIi04MTk2MjQ4NTEiLCAidmFsdWUiOiAxLCAibGFiZWwiOiAiV2lsbGlhbSBDaGFuIn0sIHsia2V5X25hbWUiOiAiLTgyOTg2MTU1IiwgInZhbHVlIjogMSwgImxhYmVsIjogIlJhZGhhIE5hcmF5YW4ifSwgeyJrZXlfbmFtZSI6ICItODc3MDY1ODQ5IiwgInZhbHVlIjogMiwgImxhYmVsIjogIkRlYmJpZSAmIERvbiBMZUJsYW5jIn0sIHsia2V5X25hbWUiOiAiLTg4MDI0MzgzMiIsICJ2YWx1ZSI6IDUsICJsYWJlbCI6ICJEb25uYSAmIEJyaWFuIEpvbmVzIn0sIHsia2V5X25hbWUiOiAiLTg5MzcxNTYwMiIsICJ2YWx1ZSI6IDMsICJsYWJlbCI6ICJTdHVhcnQgTWVuYWtlciAmIEtlcnJ5IE1pdGNoZWxsIn0sIHsia2V5X25hbWUiOiAiLTkyNzMyMTA5OCIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJKdWxpZSAmIFN0YW5sZXkgTGl1In0sIHsia2V5X25hbWUiOiAiLTk0MjQ4NzczNCIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJTaGFyb24gJiBMbG95ZCBUaG9tYXMifSwgeyJrZXlfbmFtZSI6ICItOTg3MTAyMTQ0IiwgInZhbHVlIjogMSwgImxhYmVsIjogIlRpbSBSYXRoc2NobWlkdCJ9LCB7ImtleV9uYW1lIjogIjEwNTcyMjAwODgiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiS2FyZW4gUG9ydG8gJiBTY290dCBIYW1pbHRvbiJ9LCB7ImtleV9uYW1lIjogIjEwNzgxMzIxMTAiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiSGVhdGhlciBMaXUgJiBTdGV2ZW4gU3VuIn0sIHsia2V5X25hbWUiOiAiMTEwNTQ2NzIzNSIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJKb3kgTGl1ICYgTWlrZSBHcmFkemllbCJ9LCB7ImtleV9uYW1lIjogIjExNDA0ODY0MzUiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiR2FldGFubyAmIFBhb2xhIERlIFJvc2EifSwgeyJrZXlfbmFtZSI6ICIxMTcxNDY3NjUwIiwgInZhbHVlIjogMiwgImxhYmVsIjogIlJhY2hhZWwgU21pdGggJiBLZWxseSBQb29sZSJ9LCB7ImtleV9uYW1lIjogIjExNzYzOTk4NjkiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiRGVydm9uIENoYW5nICYgV2VzIFRob3JudG9uIn0sIHsia2V5X25hbWUiOiAiMTIwOTAwNjczOCIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJNYXJrICYgQ2F0aGVyaW5lIERlc25veWVyIn0sIHsia2V5X25hbWUiOiAiMTIxNTY3MjM5NCIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJLZXZpbiBBbnp6b2xpbiJ9LCB7ImtleV9uYW1lIjogIjEzNTM1MTQ0NiIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJSb2dlciAmIERlbmlzZSBNYW5uZWxsIn0sIHsia2V5X25hbWUiOiAiMTQxNDE0NDMyOSIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJTaG9taXIgQmFuZXJqZWUifSwgeyJrZXlfbmFtZSI6ICIxNDM1OTI5MTI1IiwgInZhbHVlIjogMiwgImxhYmVsIjogIll2b25uZSBZaXAgJiBMdWtlIERhaGwifSwgeyJrZXlfbmFtZSI6ICIxNDQ0MDI5MDkwIiwgInZhbHVlIjogMiwgImxhYmVsIjogIkNhcmx5IFBhcXVldHRlIn0sIHsia2V5X25hbWUiOiAiMTQ1MTE2NzE2MSIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJNaW5nLUJpYW5uIExpdSAmIFlvbGEgTGlhbmcifSwgeyJrZXlfbmFtZSI6ICIxNTI5MzA3NDMzIiwgInZhbHVlIjogMiwgImxhYmVsIjogIkJhcmJhcmEgQmFrZXIifSwgeyJrZXlfbmFtZSI6ICIxNTM4Nzk1MTkxIiwgInZhbHVlIjogMiwgImxhYmVsIjogIkVsaXphYmV0aCBLbm9wZiJ9LCB7ImtleV9uYW1lIjogIjE2ODAyNDUyNzAiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiUm9iZXJ0IE5pZWxzZW4gJiBTaW1vbmkgU2lxdWVpcmEifSwgeyJrZXlfbmFtZSI6ICIxNjk3NTU2OTUzIiwgInZhbHVlIjogMiwgImxhYmVsIjogIkphY29iIEhvZmZtYW4tQW5kcmV3ICYgQWxseXNlIEhlYXJ0d2VsbCJ9LCB7ImtleV9uYW1lIjogIjE3MTE4NDY1NTMiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiSG9sbHllIFNjaHVtYWNoZXIgJiBXaWxsaWFtIFNoZXBhcmQifSwgeyJrZXlfbmFtZSI6ICIxNzI0NzQxODU5IiwgInZhbHVlIjogMywgImxhYmVsIjogIkpvcmRhbiAmIEJldHN5IEtvbG0ifSwgeyJrZXlfbmFtZSI6ICIxNzYzOTk5MDkxIiwgInZhbHVlIjogMiwgImxhYmVsIjogIkJldGggV2lsbGlhbXMgJiBTdGVwaGVuIEJlcmtlIChNci4gQmV0aCdzIEh1c2JhbmQpIn0sIHsia2V5X25hbWUiOiAiMTc2Nzk5Mzk4MyIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJBcmlhbmEgTWFydGluZXoifSwgeyJrZXlfbmFtZSI6ICIxNzc2NjM3NjA0IiwgInZhbHVlIjogMiwgImxhYmVsIjogIkplc3MgSmVua2lucyAmIEphbWllIE5pY2hvbHNvbiJ9LCB7ImtleV9uYW1lIjogIjE4MTE3MDM4MDMiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiQ2hpbiAmIFNoaW4gTGl1In0sIHsia2V5X25hbWUiOiAiMTgyNDI2MzEzOCIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJUZXJyYW5jZSBNb29yZSJ9LCB7ImtleV9uYW1lIjogIjE4NTE0MDgxODQiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiSm9tYXkgTGl1ICYgQWRyaWFuIEdyYWhhbSJ9LCB7ImtleV9uYW1lIjogIjE4ODQ0MTEyNTIiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiQXJ0aHVyICYgSmFzbWluZSBDaGFuZyJ9LCB7ImtleV9uYW1lIjogIjE5MjkyMzI0NTUiLCAidmFsdWUiOiAzLCAibGFiZWwiOiAiRWxlbmEgJiBTY290dCBIYXZpbGFuZCJ9LCB7ImtleV9uYW1lIjogIjE5ODA3Mjc0NTYiLCAidmFsdWUiOiAxLCAibGFiZWwiOiAiSmVmZnJleSBZYXNza2luIn0sIHsia2V5X25hbWUiOiAiMTk4ODg2MzY2MCIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJKYW5lICYgQnJ1Y2UgU3RlZWxlIn0sIHsia2V5X25hbWUiOiAiMjAzNDkyNTA0OCIsICJ2YWx1ZSI6IDEsICJsYWJlbCI6ICJSeWFuIExlZSJ9LCB7ImtleV9uYW1lIjogIjIxNDcyNTE0MTEiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiR2VvZmYgR2FzcGFyICYgU2NvdHQgRWZmbGVyIn0sIHsia2V5X25hbWUiOiAiMjc0MDY0MTk2IiwgInZhbHVlIjogMSwgImxhYmVsIjogIkRhdmlkIE1hcnRpbmV6In0sIHsia2V5X25hbWUiOiAiMzI0NTExNDMxIiwgInZhbHVlIjogMiwgImxhYmVsIjogIlNpbW9uICYgQWxlZWNlIExhdyJ9LCB7ImtleV9uYW1lIjogIjM2Njk5MjI0MiIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJQYXVsIERlbGxlbW9uYWNoZSJ9LCB7ImtleV9uYW1lIjogIjQyMzU4NDk1OCIsICJ2YWx1ZSI6IDEsICJsYWJlbCI6ICJDbGlmdG9uIFRheSJ9LCB7ImtleV9uYW1lIjogIjQ0NzU4NzI0OCIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJBbGlzb24gTGFtIn0sIHsia2V5X25hbWUiOiAiNDk5Mzk5ODY1IiwgInZhbHVlIjogMiwgImxhYmVsIjogIkRhbmlzZSBTZWF0ZXJzIn0sIHsia2V5X25hbWUiOiAiNTU2NzM5Mzg4IiwgInZhbHVlIjogMiwgImxhYmVsIjogIkNvbGluIEJhbGxvdyJ9LCB7ImtleV9uYW1lIjogIjU2Mjk1MzgzNCIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJNeXJhIENoZW4ifSwgeyJrZXlfbmFtZSI6ICI1OTM4NzUwMTEiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiQ29sbGluIFdpbnRlciJ9LCB7ImtleV9uYW1lIjogIjY4ODI2MTU3NCIsICJ2YWx1ZSI6IDUsICJsYWJlbCI6ICJBbmR5ICYgU2hlcnJpIEJhY2lnYWx1cG8ifSwgeyJrZXlfbmFtZSI6ICI3MDMzMzg4OTciLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiS2F0ZSBLb3ZhbHN6a2kgJiBEYXZlIFNjYWxseSJ9LCB7ImtleV9uYW1lIjogIjcwNzU3NjYxNCIsICJ2YWx1ZSI6IDIsICJsYWJlbCI6ICJQYXRpIE1vcnJpc29uIn0sIHsia2V5X25hbWUiOiAiNzQ2ODQyMzk5IiwgInZhbHVlIjogMiwgImxhYmVsIjogIlN1bm55IEJhaW5zIn0sIHsia2V5X25hbWUiOiAiNzY3NTcxNDIiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiUGV0ZXIgJiBDaHJpc3RpbmUgQ29saWpuIn0sIHsia2V5X25hbWUiOiAiODI2NzUzODY2IiwgInZhbHVlIjogNiwgImxhYmVsIjogIk1pa2UgJiBKYW5ldCBCZWF0dGllIn0sIHsia2V5X25hbWUiOiAiODU4NDU5MTIxIiwgInZhbHVlIjogMywgImxhYmVsIjogIk1pY2hhZWwgQmFjaWdhbHVwbyAmIERvbm5hIEdha3N0YXR0ZXIifSwgeyJrZXlfbmFtZSI6ICI5MDc2MzcwNTQiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiQnJpYW4gJiBUaW5hIEJhY2lnYWx1cG8ifSwgeyJrZXlfbmFtZSI6ICI5NDU1NjgyNDgiLCAidmFsdWUiOiAyLCAibGFiZWwiOiAiTGVlIFR1cm5lciAmIEplcmVteSBFYXN0bWFuIn1dfQ=='));
+  $('#gn').autocomplete({source: guest_data.guests, select: sel});
+  $('.spin').toggle();
+} else {
+  $.getJSON('/get_guest_list', function(data) {
+    guest_data = data;
+    $('#gn').autocomplete({source: guest_data.guests, select: sel});
+    $('.spin').toggle();
+  });
+}
+$('#sub').click(function(e) {
+  e.preventDefault();
+  f = $(this).parents('form'); 
+  $('.spin').toggle();
+  $.post(f.attr('action'), f.serialize(), function(data) {
+    if (data.alert) {
+      $('.spin').toggle();
+      alert(data.alert);
+      return;
+    }
+    $('#beg').hide();
+    if (data.thanks == 0) {
+      $('#not-coming').show();
+    } else if (data.thanks > 2) {
+      $('#eeg').show();
+      $('#eg').text(data.thanks - 1);
+      $('#reply').show();
+    } else if (data.thanks > 1) {
+      $('#eg').text(data.thanks - 1);
+      $('#reply').show();
+    } else {
+      $('#cg').hide();
+      $('#reply').show();
+    }
+    $('.spin').toggle();
+    f.hide();
+  }).error(function() {
+    $('.spin').toggle();
+    alert('There was an error saving your result, please try again');
+  });
+});
+});
+</script>
+</head>
+<body>
+  <div id="topnav"><h1>Jim &amp; Sonia</h1></div>
+  <div id="nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/vows">Vows</a></li>
+      <li><a href="/photos">Photos</a></li>
+      <li><a href="/karaoke">Karaoke</a></li>
+      <li><a href="/rsvp">RSVP</a></li>
+      <li><a href="/details">Wedding details</a></li>
+      <li><a href="/menu">Menu</a></li>
+      <li><a href="/parties">Pre & Post Party</a></li>
+      <li><a href="/hotels">Accommodations</a></li>
+      <li><a href="/sf">San Francisco</a></li>
+      <li><a href="/registry">Registry</a></li>
+    </ul>
+  </div>
+  <div id="content"><div id="beg">
+  <p>To RSVP, please enter your name into the box, as written on your invitation. 
+Once you select your name from the drop down menu, please enter the number of guest(s), including yourself and the names listed on the invitation.</p>
+
+  <p>If you are not able to attend, enter "0" as the number of guests.</p>
+</div>
+
+<div class="spin"><img src="/r/spinner.gif"></div>
+<form method="POST" action="/rsvp">
+<div class="spin hide">
+  <label>Name: <input id="gn" autofocus="n" type="text" size="40" name="name"></label><br>
+  <label>Number of guests: <input type="number" min="0" name="guest_count" id="gcount"></label> <span id="mg"></span><br>
+  <input type="hidden" name="key_name" value="" id="kn">
+  <button id="sub">RSVP</button>
+</div>
+</form>
+
+<div id="reply" class="hide">Thanks for replying; we hope to see you
+<span id="cg">and your <span id="eg"></span>
+guest<span class="hide" id="eeg">s</span></span>
+on 9 Sept 2012.</div>
+
+<div id="not-coming" class="hide">We are sorry you will not make it, but we will toast with you in spirit.</div>
+    <div id="footer">
+      <small>
+        <i>Having trouble?  Give us a call at (415) 734 8774 or email jim.morrison at gmail.com .</i>
+      </small>
+    </div>
+  </div>
+</body>
+</html>

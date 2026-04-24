@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+  <title>Sonia &amp; Jim's wedding</title>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Handlee|Dancing+Script">
+  <link rel="stylesheet" type="text/css" href="/r/style.css">
+  <style>
+.pm {
+  cursor: pointer;
+  cursor: hand;
+}
+p {
+  margin-bottom: 15px;
+}
+</style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  
+<script>
+$(document).ready(function() {
+  $('#nav').height($('body').innerHeight() - 30);
+  $('.pm').click(function(e) {
+  var div = $('#' + this.id + '-div');
+  if (div.is(':hidden'))
+     $(this).children('.t').html('[&ndash;]');
+  else
+     $(this).children('.t').text('[+]');
+  div.toggle();
+});
+$('h2:gt(0)').css('margin-top', '25px');
+});
+</script>
+</head>
+<body>
+  <div id="topnav"><h1>Jim &amp; Sonia</h1></div>
+  <div id="nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/vows">Vows</a></li>
+      <li><a href="/photos">Photos</a></li>
+      <li><a href="/karaoke">Karaoke</a></li>
+      <li><a href="/rsvp">RSVP</a></li>
+      <li><a href="/details">Wedding details</a></li>
+      <li><a href="/menu">Menu</a></li>
+      <li><a href="/parties">Pre & Post Party</a></li>
+      <li><a href="/hotels">Accommodations</a></li>
+      <li><a href="/sf">San Francisco</a></li>
+      <li><a href="/registry">Registry</a></li>
+    </ul>
+  </div>
+  <div id="content"><h2 id="jason" class="pm">Jason's Introduction<span class="t">[&ndash;]</span></h2>
+<div id="jason-div">
+<p>Good afternoon and welcome, I just want to thank
+each of you for being here as we witness the joining
+of James and Sonia in marriage this afternoon. As
+many of you know, I’ve been friends with Sonia for
+many years now, all the way back to elementary
+school. Over the last two years I’ve gotten to know
+Jim too, along with Sonia and Jim as a couple, or as
+many of you might know if you’ve spent time with
+them as a couple, “Punch Buggy Love.” As we stand
+here today we’re just a few weeks shy of the three
+year anniversary of when they first met, at a boozy
+Thursday night of birthday celebration at the
+Exploratorium. It was a rough start to the relationship
+initially, he didn’t come to her birthday party that
+weekend (in his defense she might not have
+remembered that he was celebrating his own birthday
+at Hardly Strictly Bluegrass that same weekend) and
+when he called later that following week she may not
+have remembered exactly who he was (in her
+defense a “Danish Google Engineer” was two thirds
+correct.) Either way the dinner portion of their first
+date went so well that they barely caught the last 15
+minutes of the entertainment plans of the night, but I
+think listening to others speak wasn’t the highlight of
+their night anyways.
+</p>
+<p>Jim and I didn’t have the ideal start to our friendship,
+though. The dating and courtship, if you will, was all
+occurring while I happened to be out of the country for
+a year. Of course I was receiving email updates from
+Sonia the whole time, and I knew something was
+different based on her slightly less cynical tone! After
+a few months of their dating I figured it was about time
+to befriend Jim on Facebook, so I could get to know
+him, even if from a distance. Little did I know that I
+didn’t meet Jim’s standards for Facebook friendship,
+we hadn’t met at least twice in person, and Sonia had
+to inform me that it just wasn’t going to happen. I think
+Jim felt bad once he realized what it meant when
+Sonia called me her “Winnie Cooper” and he tried to
+extend a Facebook friendship olive branch, but not
+wanting to see him lower his standards I declined this
+time. Either way I got to know the real Jim upon my
+return to San Francisco and I quickly realized what a
+wonderful guy Sonia had found! After having met him
+just once for an hour over dinner he hosted 15 of my
+friends at his house a few days later, total strangers to
+him, while Sonia slyly snuck me over to his house for
+a surprise 30th birthday party! It’s a wonderful
+example of the warm and kind nature that exemplifies
+Jim’s nature, really qualities they both share and just
+one of the reasons why their perfect for another! (Jim
+also got points with me for his sizable shoe
+collection!)
+</p>
+<p>In Jim we see someone that Sonia describes as her
+muse, he enables her to grow and enforces their
+shared values such as being environmentally
+conscious and staying healthy. Jim says that Sonia
+allows him to be himself and that he enjoys her
+wonderful sense of humor! Together they’re a warm
+and loving couple, both tolerant and understanding of
+each other’s personalities and great communicators!
+I’m so very happy that they found each other and so
+very honored that they asked me to be here to unite
+them in marriage!
+</p>
+</div>
+
+<h2 id="jim" class="pm">Jim's Vows<span class="t">[&ndash;]</span></h2>
+<div id="jim-div">
+<p>
+Sonia, you make my life a joy to live everday.  From when we barely met at the
+exploratorium to travelling around the world.  I’ve been more places with you
+in the last 3 years than I’ve been in my other 30 years.  I don’t regret saying
+‘yes’ to going to New Zealand so soon after I met you.  I loved crossing
+Germany with you 3 times, I was amazed on new years with you in Taiwan.  I even
+hope we get to snokel again like we did in Mexico with you on my back exploring
+the ocean as we’ve explored the world on land.
+</p>
+
+<p>
+I’m happy to be your canvas and to dress up in costumes, and even on occasion to dress up in formal wear.  The hard part about moving was simply trying to find a way to show off the pictures of all the crazy times we had.  I might even make you a photobooth in our attic.
+</p>
+
+<p>
+I love you as my pessimistic side.  I will learn to tolerate your translations and relieve your stress (no matter how many times you dump me).   So, I promise to love you, to honour you and to wash the sheets for the rest of my life as your faithful husband.
+</p>
+</div>
+
+<h2 id="sonia" class="pm">Sonia's Vows<span class="t">[&ndash;]</span></h2>
+<div id="sonia-div">
+<p>
+From the first time we met, I had no clue what an impact you would
+have on my life... mostly because I don’t remember much about that
+night at the Exploratorium.  After getting over the impression that
+you were not the restaurant host on our first date, I just knew from
+your smile and your eyes you were someone different.  Beyond the blond
+and green hair, the wild hair do’s and costumes we have done together,
+the times you crush me at Scrabble and slug bug, you have become my
+strength and happiness.  I never thought I would meet my match and my
+exact complement in life.  I will even admit that sometimes you make
+me optimistic.
+</p>
+
+<p>
+I will never take for granted for the daily back scratches you give
+me, the drink you have ready for me after a long day at work, the
+patience you have to answer my endless repetitive questions and Sonia
+translations, the warmth your body fur provides me at night, and most
+of all, seeing your smiling face in the morning… no matter how early I
+wake you up in the morning whether it be due to work or just because I
+can’t sleep.  No matter how my day goes, you always make me feel like
+everything will be alright.
+</p>
+
+<p>
+As your other half, your partner, your soul mate, your significant
+other, your spouse, your “doctor friend”, your wife, I will always
+have a cold glass of water for you when you come home.  I will bike up
+those hills with you despite my laziness.  I will make sure there is a
+nice pillow in the bathtub for you when there have been too many
+beers.  I will be a good housewife with having laundry done and dinner
+ready on Mondays only.  I will try to let you sleep in on weekends.  I
+will always give you hugs on demand.
+</p>
+
+</p>
+We may never remember how we exactly met but I plan that I will never
+forget the rest of our lives together.
+</p>
+</div>
+
+<h2 id="rings" class="pm">Exchange of Rings <span class="t">[&ndash;]</span></h2>
+<dl id="rings-div">
+<dt>Jason:</dt>
+<dd>May I have the rings. These endless rings are the
+visible symbols of the love and faithfulness that
+Sonia &amp; Jim bring to each other.</dd>
+<dt>Sonia:</dt>
+<dd>With this ring, I thee wed, and with it, I bestow upon
+thee all the treasures of my hands, heart &amp; mind for
+this day and forevermore.</dd>
+<dt>Jim:</dt>
+<dd>With this ring, I thee wed, and with it, I bestow upon
+thee all the treasures of my hands, heart &amp; mind for
+this day and forevermore.</dd>
+</dl>
+
+    <div id="footer">
+      <small>
+        <i>Having trouble?  Give us a call at (415) 734 8774 or email jim.morrison at gmail.com .</i>
+      </small>
+    </div>
+  </div>
+</body>
+</html>
